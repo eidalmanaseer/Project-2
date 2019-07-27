@@ -23,12 +23,13 @@
    });
 
   });
+  // end jq login
  
-
+  //  start drowing jq
   window.onload = function() {
     var  color;
     
-    colorArray = ['red', 'green', 'blue', 'orangered', 'yellow', 'rebeccapurple', 'tomato', 'orchid', 'goldenrod', 'mediumpurple', 'firebrick', 'green', 'fuchsia', 'gray', 'white', 'brown', 'peru', 'aqua', 'springgreen', 'slategrey', 'aquamarine', 'sienna', 'darkorange', 'darkcyan', 'violet']
+    colorArray = ['red', 'green', 'blue', 'orangered', 'yellow', 'rebeccapurple', 'tomato', 'orchid', 'goldenrod', 'mediumpurple', 'firebrick', 'green', 'fuchsia', 'gray', 'white', 'brown', 'peru', 'aqua', 'springgreen', 'slategrey', 'aquamarine', 'sienna', 'darkorange', 'darkcyan', 'black']
     
     colorArray.forEach(function(element,index) {
      $('#c'+(index+1)).click ( function(){   "use strict";
@@ -38,4 +39,14 @@
       })
         
     });
+    for(x=0;x<Layer_1.getElementsByTagName('path').length;x++)
+    {Layer_1.getElementsByTagName('path')[x].onclick=function()
+    { this.setAttribute('fill',color); } }
+
+
+
+
+
+  
     }
+  // end drowing jq
