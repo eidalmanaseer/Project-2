@@ -28,22 +28,46 @@
 
 .contant2{
    width: 100%;
-    height: 600px;
+    height:800px;
+    position: relative;
 }
 
 .contant2 .section_right{
-    width:30%;
+    width:auto;
     background-color: blue;
     height:auto;
     float: left;
     margin-top:75px;
-    margin-left: 150px;
+    margin-left: 250px;
 }
  
 
 .contant2 .section_left{
-    width:60%;
-    height: 600px;
+    width:800px;
+    height: auto;
+    /* background-color: blue; */
     float: left;
+    position: relative;
+    bottom:150px;
+
+
 }
+
+
+
+
+
+.buttons{
+    text-align: center;
+
+}
+.buttons button{            
+    font-size: 50px;
+    background-color:#F37526;
+    color: #fff;
+    border-radius: 50px;
+    outline: none;
+    font-style: oblique;
  
+    
+}

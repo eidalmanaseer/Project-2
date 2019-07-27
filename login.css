@@ -38,11 +38,34 @@
     
 }
 
-.contant .x{
+.contant .coding{
+
+    color: #fff;
+    position: absolute;
+    top:15%;
+    left: 25%;
+    font-size: 120px;
+    font-weight: Impact,Haettenschweiler,Arial normal bold,sans-serif;
+    background-image: url(images/1.jpeg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     animation:fillText 4s ease alternate infinite; 
+
+
+}
+
+   @keyframes fillText{
+    form{background-position: center 40%}
+    to{background-position:center 60%}
+  } 
+
+
+.contant .Please{
     color: #fff;
     position: absolute;
     top: 40%;
-    left:30%;
+    left:38%;
 
 }
 
@@ -53,7 +76,7 @@
     position: absolute;
     top: 50%;
     left:40%;
-    box-shadow: 20px 10px #888888;
+    box-shadow: 10px 10px #fff;
     
 
 
@@ -102,7 +125,7 @@
       background-color: #222322;
       height:70px;
       border-top: 1px solid #fff;
-      color: #fff;
+      color:#fff;
       text-align: center
   }
 /* end footer */
